@@ -113,6 +113,11 @@ GEM
     rspec-expectations (2.8.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.8.0)
+    rspec-rails (2.8.1)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      railties (>= 3.0)
+      rspec (~> 2.8.0)
     rubyzip (0.9.5)
     sass (3.1.13)
     sass-rails (3.2.4)
@@ -157,7 +162,7 @@ DEPENDENCIES
   evergreen
   jquery-rails
   rails (= 3.2.1)
-  rspec
+  rspec-rails (~> 2.6)
   sass-rails (~> 3.2.3)
   sqlite3
   thin
